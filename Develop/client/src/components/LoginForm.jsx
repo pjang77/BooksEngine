@@ -55,8 +55,6 @@ const LoginForm = () => {
           Something went wrong with your login credentials!
         </Alert>
 
-        {/* ... Rest of your form fields here ... */}
-
         <Button
           disabled={!(userFormData.email && userFormData.password)}
           type="submit"

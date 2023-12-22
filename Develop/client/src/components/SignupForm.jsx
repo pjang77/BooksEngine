@@ -63,8 +63,6 @@ const SignupForm = () => {
           Something went wrong with your signup!
         </Alert>
 
-        {/* ... Rest of your form fields here ... */}
-
         <Button
           disabled={
             !(
